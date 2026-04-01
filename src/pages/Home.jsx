@@ -5,6 +5,7 @@ import ProductCard from "../components/ProductCard";
 import { LiaShippingFastSolid } from "react-icons/lia";
 import { GiLayeredArmor } from "react-icons/gi";
 import { IoFlashSharp } from "react-icons/io5";
+import heroImage from "../assets/images/Hero-img.jpg";
 
 function Home() {
   const [featuredProducts, setFeaturedProducts] = useState([]);
@@ -57,7 +58,7 @@ function Home() {
 
             <div className="col-lg-6 text-center">
               <img
-                src="src/assets/images/Creating the Perfect Gaming Sanctuary_ Setup Tips & Tricks!.jpg"
+                src={heroImage}
                 alt="Gaming Setup"
                 className="img-fluid hero-image"
               />
