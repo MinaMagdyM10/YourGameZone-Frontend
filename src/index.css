@@ -77,6 +77,9 @@ img {
 }
 
 .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   background: var(--navbar-bg) !important;
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
